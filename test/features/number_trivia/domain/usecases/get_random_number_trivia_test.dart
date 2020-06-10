@@ -18,7 +18,7 @@ void main() {
     usecase = GetRandomNumberTrivia(mockRandomTriviaRepository);
   });
 
-  final tNumberTrivia = NumberTrivia(number: 1, text: 'text');
+  final tNumberTrivia = NumberTrivia(number: 1, text: 'test text');
 
   test(
     'should get trivia from the repository',
